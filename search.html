@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>GourmetGrove | Restaurants</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="js/script.js" defer></script>
+		<script type="text/json" src="data/restaurants.json" defer></script>
+		<script src="js/restaurants.js" defer></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div id="headerWrapper">
+				<header>
+					<a class="logo noselect nounderline" href="/">
+						<img src="img/seafood.png" alt="logo" />
+						<h1>GourmetGrove</h1>
+					</a>
+					<div class="view-location">
+						<img src="img/icons/location.png" alt="Location" class="location-tag-icon" id="locationIcon">
+						<p id="locationText">
+							Click to select your location
+						</p>
+					</div>
+					<nav>
+						<div class="login navbtn">
+							<a href="#">Log in</a>
+						</div>
+						<div class="signup navbtn">
+							<a href="#">Sign up</a>
+						</div>
+						<div class="basketlogo">
+							<img
+								src="img/icons/shoppingbasket.svg"
+								alt="shopping basket"
+								width="24px"
+							/>
+						</div>
+					</nav>
+					<div class="search-header" id="searchHeader">
+						<form
+							action="search.html"
+							method="GET"
+							class="searchbar"
+						>
+							<div class="search-wrapper">
+								<input
+									type="text"
+									placeholder="Search..."
+									name="q"
+								/>
+								<div class="search-icon">
+									<img
+										src="img/icons/search.svg"
+										alt="search"
+										width="24px"
+									/>
+								</div>
+							</div>
+						</form>
+					</div>
+				</header>
+			</div>
+			<main>
+				<div class="top-area">
+					<div id="offersArea">
+						<h2>Offers</h2>
+						<ul class="offer-list">
+							<li class="offer">
+								<img
+									src="img/offers/BK_propaganda.jpg"
+									alt="Burger King"
+									class="offer-img"
+								/>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="restaurant-cards">
+					<div class="result">
+						<p id="result"></p>
+					</div>
+				</div>
+			</main>
+			<footer>
+				<div class="footer-content">
+					<div class="logo">
+						<img src="img/seafood.png" alt="logo" />
+						<h1>GourmetGrove</h1>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

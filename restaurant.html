@@ -1,0 +1,83 @@
+<!-- FILEPATH: /c:/Users/nils.lindblad/Documents/Webbutveckling 1/Höstprojekt/restaurant.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>GourmetGrove | Restaurant</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&family=Roboto+Mono&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="js/script.js" defer></script>
+		<script src="js/menu.js" defer></script>
+	</head>
+
+	<body>
+		<header>
+			<a class="logo noselect nounderline" href="/">
+				<img src="img/seafood.png" alt="logo" />
+				<h1>GourmetGrove</h1>
+			</a>
+			<nav>
+				<div class="login navbtn">
+					<a href="#">Log in</a>
+				</div>
+				<div class="signup navbtn">
+					<a href="#">Sign up</a>
+				</div>
+				<div class="basketlogo">
+					<img
+						src="img/icons/shoppingbasket.svg"
+						alt="shopping basket"
+						width="24px"
+					/>
+				</div>
+			</nav>
+		</header>
+
+		<main>
+			<section class="restaurant-desc">
+				<div class="restaurant-img-wrapper restaurant-desc-content">
+					<img id="image" src="img/food/lamb.jpg" alt="" />
+				</div>
+				<div class="restaurant-text restaurant-desc-content">
+					<div class="detailed-wrapper">
+						<h2 id="name"></h2>
+						<p class="detailed-rating">
+							<img
+								src="img/icons/star.svg"
+								alt="star icon"
+								width="24px"
+							/>
+							<span id="rating"></span>
+						</p>
+						<p class="detailed-description" id="description">
+						</p>
+					</div>
+					<div class="detailed-wrapper">
+						<p class="detailed-price"><span id="price"></span> • <span id="cuisine"></span></p>
+						<p class="detailed-time">
+							<img
+								src="img/icons/time.svg"
+								alt="Clock"
+								width="24px"
+							/>
+							<span id="time"></span>
+						</p>
+					</div>
+				</div>
+			</section>
+			<section class="menu" id="menu">
+			</section>
+		</main>
+
+		<footer>
+			<!-- Footer content goes here -->
+		</footer>
+	</body>
+</html>
