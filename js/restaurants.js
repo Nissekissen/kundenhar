@@ -77,6 +77,6 @@ request.onload = function () {
     })
 }
 
-request.open("get", "http://localhost:5500/data/restaurants.json", true);
+request.open("get", "/data/restaurants.json", true);
 request.send();
 
