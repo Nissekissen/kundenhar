@@ -13,6 +13,8 @@
 			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&family=Roboto+Mono&display=swap"
 			rel="stylesheet"
 		/>
+		<meta name="view-transition" content="same-origin" />
+		<script src="js/basket.js"></script>
 		<script src="js/script.js" defer></script>
 		<script src="js/menu.js" defer></script>
 	</head>
@@ -38,12 +40,24 @@
 					/>
 				</div>
 			</nav>
+			
 		</header>
-
+		<div class="basket-wrapper">
+			<div class="basket-header">
+				<h2>Your basket</h2>
+			</div>
+			<div class="basket-divider"></div>
+			<div id="basket"></div>
+		</div>
 		<main>
 			<section class="restaurant-desc">
 				<div class="restaurant-img-wrapper restaurant-desc-content">
-					<img id="image" src="img/food/lamb.jpg" alt="" />
+					<img
+						id="image"
+						src=""
+						alt=""
+						style="view-transition-name: image"
+					/>
 				</div>
 				<div class="restaurant-text restaurant-desc-content">
 					<div class="detailed-wrapper">
@@ -56,11 +70,13 @@
 							/>
 							<span id="rating"></span>
 						</p>
-						<p class="detailed-description" id="description">
-						</p>
+						<p class="detailed-description" id="description"></p>
 					</div>
 					<div class="detailed-wrapper">
-						<p class="detailed-price"><span id="price"></span> • <span id="cuisine"></span></p>
+						<p class="detailed-price">
+							<span id="price"></span> •
+							<span id="cuisine"></span>
+						</p>
 						<p class="detailed-time">
 							<img
 								src="img/icons/time.svg"
@@ -72,12 +88,22 @@
 					</div>
 				</div>
 			</section>
-			<section class="menu" id="menu">
-			</section>
+			<section class="menu" id="menu"></section>
 		</main>
 
 		<footer>
-			<!-- Footer content goes here -->
+			<div class="footer-content">
+				<div class="footer-logo">
+					<img src="img/seafood.png" alt="logo" />
+					<h1>GourmetGrove</h1>
+				</div>
+				<div class="footer-links">
+					<a href="/index.html#about">About</a>
+					<a href="#">Contact</a>
+					<a href="#">Terms of Use</a>
+					<a href="#">Privacy Policy</a>
+				</div>
+			</div>
 		</footer>
 	</body>
 </html>

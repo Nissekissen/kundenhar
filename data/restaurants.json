@@ -10,42 +10,42 @@
 		"description": "Pasta Haus is a gourmet restaurant that offers a variety of pasta dishes from different regions and cuisines. You can choose from spaghetti, lasagna, ravioli, gnocchi, and more. All dishes are made with fresh ingredients and served with delicious sauces and toppings. Pasta Haus is the perfect place for pasta lovers and foodies. Order now and enjoy the best pasta in town.",
 		"products": [
 			{
-				"id": 0,
+				"id": "0_0",
 				"name": "Ravioli al Funghi",
 				"price": "230kr",
 				"image": "img/food/ravioli.jpg",
 				"description": "Delicate homemade ravioli filled with porcini mushrooms and ricotta cheese, served with a creamy mushroom sauce."
 			},
 			{
-				"id": 1,
+				"id": "0_1",
 				"name": "Gnocchi Sorrentina",
 				"price": "210kr",
 				"image": "img/food/gnocchi.jpg",
 				"description": "Soft potato gnocchi baked with tomato sauce, mozzarella, and fresh basil leaves."
 			},
 			{
-				"id": 2,
+				"id": "0_2",
 				"name": "Linguine alle Vongole",
 				"price": "240kr",
 				"image": "img/food/linguine.jpg",
 				"description": "Linguine pasta tossed with fresh clams, garlic, white wine, and parsley in a light olive oil sauce."
 			},
 			{
-				"id": 3,
+				"id": "0_3",
 				"name": "Penne Arrabbiata",
 				"price": "200kr",
 				"image": "img/food/penne.jpg",
 				"description": "Penne pasta served with a spicy tomato sauce, garlic, chili flakes, and fresh basil."
 			},
 			{
-				"id": 4,
+				"id": "0_4",
 				"name": "Fettuccine Alfredo",
 				"price": "220kr",
 				"image": "img/food/fettuccine.jpg",
 				"description": "Wide fettuccine pasta served with a creamy Parmesan cheese sauce and cracked black pepper."
 			},
 			{
-				"id": 5,
+				"id": "0_5",
 				"name": "Lobster Ravioli",
 				"price": "280kr",
 				"image": "img/food/lobster_ravioli.jpg",
@@ -64,42 +64,42 @@
 		"description": "Steakhouse is a gourmet restaurant that offers a selection of steak dishes from different cuts and grades. You can choose from ribeye, sirloin, filet mignon, t-bone, and more. All dishes are cooked to your preference and served with sides and salads. Steakhouse is the ideal place for steak lovers and foodies. Order now and enjoy the best steak in town.",
 		"products": [
 			{
-				"id": 0,
+				"id": "1_0",
 				"name": "Ribeye Steak",
 				"price": "350kr",
 				"image": "img/food/ribeye.jpg",
 				"description": "Juicy and flavorful ribeye steak grilled to perfection, served with roasted vegetables and garlic mashed potatoes."
 			},
 			{
-				"id": 1,
+				"id": "1_1",
 				"name": "Filet Mignon with Red Wine Sauce",
 				"price": "380kr",
 				"image": "img/food/filet_mignon.jpg",
 				"description": "Tender filet mignon cooked to your desired temperature, accompanied by a rich red wine reduction, and served with asparagus and truffle mashed potatoes."
 			},
 			{
-				"id": 2,
+				"id": "1_2",
 				"name": "T-Bone Steak",
 				"price": "400kr",
 				"image": "img/food/t_bone.jpg",
 				"description": "A classic T-bone steak grilled to perfection, served with a side of sautéed mushrooms and a loaded baked potato."
 			},
 			{
-				"id": 3,
+				"id": "1_3",
 				"name": "Sirloin Steak with Chimichurri",
 				"price": "320kr",
 				"image": "img/food/sirloin.jpg",
 				"description": "Flavorful sirloin steak topped with fresh chimichurri sauce, served with grilled vegetables and herb-roasted potatoes."
 			},
 			{
-				"id": 4,
+				"id": "1_4",
 				"name": "Porterhouse Steak",
 				"price": "420kr",
 				"image": "img/food/porterhouse.jpg",
 				"description": "A generous portion of porterhouse steak grilled to perfection, accompanied by a tangy steak sauce and a side of onion rings."
 			},
 			{
-				"id": 5,
+				"id": "1_5",
 				"name": "New York Strip Steak",
 				"price": "360kr",
 				"image": "img/food/new_york_strip.jpg",
@@ -118,42 +118,42 @@
 		"description": "Stuffed Baguette is a gourmet restaurant that offers a range of baguette sandwiches from different flavors and fillings. You can choose from ham and cheese, chicken and avocado, tuna and mayo, veggie and hummus, and more. All sandwiches are made with fresh bread and ingredients and served with chips and drinks. Stuffed Baguette is the great place for baguette lovers and foodies. Order now and enjoy the best baguette in town.",
 		"products": [
 			{
-				"id": 0,
+				"id": "2_0",
 				"name": "Ham and Cheese Baguette",
 				"price": "80kr",
 				"image": "img/food/ham_cheese_bag.jpg",
 				"description": "A classic baguette filled with thinly sliced ham, Swiss cheese, lettuce, tomatoes, and a spread of Dijon mustard."
 			},
 			{
-				"id": 1,
+				"id": "2_1",
 				"name": "Chicken and Avocado Baguette",
 				"price": "90kr",
 				"image": "img/food/chicken_avocado_bag.jpg",
 				"description": "Sliced grilled chicken breast, fresh avocado slices, mixed greens, and a drizzle of ranch dressing in a crispy baguette."
 			},
 			{
-				"id": 2,
+				"id": "2_2",
 				"name": "Tuna and Mayo Baguette",
 				"price": "85kr",
 				"image": "img/food/tuna_mayo_bag.jpg",
 				"description": "Flaky tuna mixed with mayonnaise, celery, and onions, stuffed into a fresh baguette with lettuce and pickles."
 			},
 			{
-				"id": 3,
+				"id": "2_3",
 				"name": "Veggie and Hummus Baguette",
 				"price": "75kr",
 				"image": "img/food/veggie_hummus_bag.jpg",
 				"description": "Assorted fresh vegetables with creamy hummus spread inside a whole-grain baguette, creating a healthy and flavorful sandwich."
 			},
 			{
-				"id": 4,
+				"id": "2_4",
 				"name": "Turkey and Cranberry Baguette",
 				"price": "85kr",
 				"image": "img/food/turkey_cranberry_bag.jpg",
 				"description": "Sliced roasted turkey breast, cranberry sauce, mixed greens, and a touch of cream cheese in a soft baguette."
 			},
 			{
-				"id": 5,
+				"id": "2_5",
 				"name": "Roast Beef and Horseradish Baguette",
 				"price": "95kr",
 				"image": "img/food/roast_beef_bag.jpg",
@@ -172,42 +172,42 @@
 		"description": "Lamb House is a gourmet restaurant that offers a variety of lamb dishes from different regions and cuisines. You can choose from lamb shank, lamb chops, lamb curry, lamb burger, and more. All dishes are made with high-quality ingredients and served with style and care. Lamb House is the perfect place for lamb lovers and foodies. Order now and enjoy the best lamb in town.",
 		"products": [
 			{
-				"id": 0,
+				"id": "3_0",
 				"name": "Lamb Shank with Red Wine Sauce",
 				"price": "350kr",
 				"image": "img/food/shanks.jpg",
 				"description": "A tender and succulent lamb shank braised in a rich and flavorful red wine sauce, served with creamy mashed potatoes and roasted vegetables."
 			},
 			{
-				"id": 1,
+				"id": "3_1",
 				"name": "Lamb Chops with Mint Pesto",
 				"price": "320kr",
 				"image": "img/food/lambpesto.jpg",
 				"description": "Juicy and tender lamb chops grilled to perfection and topped with a fresh and aromatic mint pesto, served with a green salad and garlic bread."
 			},
 			{
-				"id": 2,
+				"id": "3_2",
 				"name": "Lamb Tagine with Apricots and Almonds",
 				"price": "300kr",
 				"image": "img/food/lambtagine.jpg",
 				"description": "A Moroccan-inspired lamb stew with fragrant spices, dried apricots, and toasted almonds, cooked in a traditional clay pot and served with couscous and yogurt."
 			},
 			{
-				"id": 3,
+				"id": "3_3",
 				"name": "Lamb Burger with Feta Cheese and Tzatziki",
 				"price": "250kr",
 				"image": "img/food/lambburger.jpg",
 				"description": "A mouthwatering lamb burger with crumbled feta cheese and homemade tzatziki sauce, served on a toasted brioche bun with lettuce, tomato, and onion."
 			},
 			{
-				"id": 4,
+				"id": "3_4",
 				"name": "Lamb Curry with Coconut Milk and Basmati Rice",
 				"price": "280kr",
 				"image": "img/food/lambcurry.jpg",
 				"description": "A spicy and creamy lamb curry with coconut milk, tomatoes, and curry leaves, served with fluffy basmati rice and naan bread."
 			},
 			{
-				"id": 5,
+				"id": "3_5",
 				"name": "Lamb Meatballs with Tomato Sauce and Spaghetti",
 				"price": "260kr",
 				"image": "img/food/lambmeatballs.jpg",
@@ -226,42 +226,42 @@
 		"description": "Indian Gourmet is a gourmet restaurant that offers a variety of Indian dishes from different regions and traditions. You can choose from curry, biryani, tandoori, naan, and more. All dishes are made with authentic spices and ingredients and served with rice and chutney. Indian Gourmet is the wonderful place for Indian lovers and foodies. Order now and enjoy the best Indian in town.",
 		"products": [
 			{
-				"id": 0,
+				"id": "4_0",
 				"name": "Chicken Tikka Masala",
 				"price": "180kr",
 				"image": "img/food/chicken_tikka_masala.jpg",
 				"description": "Tender pieces of chicken cooked in a creamy tomato-based sauce with a blend of Indian spices."
 			},
 			{
-				"id": 1,
+				"id": "4_1",
 				"name": "Vegetable Biryani",
 				"price": "160kr",
 				"image": "img/food/vegetable_biryani.jpg",
 				"description": "Fragrant basmati rice cooked with mixed vegetables, herbs, and aromatic spices."
 			},
 			{
-				"id": 2,
+				"id": "4_2",
 				"name": "Butter Chicken",
 				"price": "190kr",
 				"image": "img/food/butter_chicken.jpg",
 				"description": "Chicken marinated in yogurt and spices, cooked in a buttery, creamy tomato sauce."
 			},
 			{
-				"id": 3,
+				"id": "4_3",
 				"name": "Garlic Naan",
 				"price": "30kr",
 				"image": "img/food/garlic_naan.jpg",
 				"description": "Soft and fluffy Indian bread brushed with garlic butter, perfect to accompany any curry."
 			},
 			{
-				"id": 4,
+				"id": "4_4",
 				"name": "Palak Paneer",
 				"price": "170kr",
 				"image": "img/food/palak_paneer.jpeg",
 				"description": "Creamy spinach curry with cubes of paneer cheese and aromatic spices."
 			},
 			{
-				"id": 5,
+				"id": "4_5",
 				"name": "Tandoori Chicken",
 				"price": "200kr",
 				"image": "img/food/tandoori_chicken.jpg",
@@ -280,42 +280,42 @@
 		"description": "Chicken Garden is a gourmet restaurant that specializes in a variety of chicken dishes prepared using diverse cooking methods and flavors. From grilled chicken to hearty stews and flavorful curries, our menu offers a range of choices to tantalize your taste buds. Each dish is carefully crafted using high-quality chicken and handpicked ingredients. Whether you prefer classic recipes or adventurous flavors, Chicken Garden is the perfect place for chicken enthusiasts and food lovers. Order now and savor the best chicken dishes in town.",
 		"products": [
 			{
-				"id": 0,
+				"id": "5_0",
 				"name": "Grilled Chicken Breast",
 				"price": "180kr",
 				"image": "img/food/grilled_chicken_breast.jpg",
 				"description": "Tender and juicy chicken breast marinated in herbs and spices, grilled to perfection, and served with a side of seasoned vegetables."
 			},
 			{
-				"id": 1,
+				"id": "5_1",
 				"name": "Chicken Alfredo Pasta",
 				"price": "200kr",
 				"image": "img/food/chicken_alfredo_pasta.jpg",
 				"description": "Creamy Alfredo pasta topped with succulent chicken pieces, Parmesan cheese, and fresh parsley."
 			},
 			{
-				"id": 2,
+				"id": "5_2",
 				"name": "Chicken Curry",
 				"price": "190kr",
 				"image": "img/food/chicken_curry.jpg",
 				"description": "Aromatic chicken curry made with a blend of spices, coconut milk, and tender chicken pieces, served with steamed basmati rice."
 			},
 			{
-				"id": 3,
+				"id": "5_3",
 				"name": "Roast Chicken with Herbs",
 				"price": "220kr",
 				"image": "img/food/roast_chicken_herbs.jpg",
 				"description": "Whole chicken roasted to golden perfection with a blend of fresh herbs, garlic, and lemon, served with roasted potatoes."
 			},
 			{
-				"id": 4,
+				"id": "5_4",
 				"name": "Honey Glazed Chicken Wings",
 				"price": "160kr",
 				"image": "img/food/honey_glazed_wings.jpg",
 				"description": "Crispy chicken wings coated in a sticky honey glaze, served with a side of ranch dressing and celery sticks."
 			},
 			{
-				"id": 5,
+				"id": "5_5",
 				"name": "Chicken and Vegetable Stir-fry",
 				"price": "170kr",
 				"image": "img/food/chicken_stir_fry.jpg",
@@ -334,42 +334,42 @@
 		"description": "The French Gourmet is a charming eatery specializing in authentic French cuisine. Our menu features a delightful selection of French classics, from delicate quiches to rich coq au vin and delightful crepes. Each dish embodies the essence of French culinary tradition, meticulously prepared using the finest ingredients and time-honored recipes. Whether you seek the comfort of rustic French flavors or the elegance of refined dishes, The French Gourmet invites you to experience the true taste of France. Order now and savor the finest French cuisine in town.",
 		"products": [
 			{
-				"id": 0,
+				"id": "6_0",
 				"name": "Quiche Lorraine",
 				"price": "180kr",
 				"image": "img/food/quiche_lorraine.jpg",
 				"description": "A savory tart filled with a luxurious mixture of bacon, cheese, eggs, and cream baked in a buttery pastry crust."
 			},
 			{
-				"id": 1,
+				"id": "6_1",
 				"name": "Coq au Vin",
 				"price": "220kr",
 				"image": "img/food/coq_au_vin.jpg",
 				"description": "Tender chicken braised in red wine with mushrooms, pearl onions, and bacon, creating a flavorful French countryside dish."
 			},
 			{
-				"id": 2,
+				"id": "6_2",
 				"name": "Ratatouille",
 				"price": "190kr",
 				"image": "img/food/ratatouille.jpg",
 				"description": "A colorful vegetable stew made with eggplant, zucchini, bell peppers, tomatoes, and aromatic herbs, showcasing Provencal flavors."
 			},
 			{
-				"id": 3,
+				"id": "6_3",
 				"name": "Beef Bourguignon",
 				"price": "240kr",
 				"image": "img/food/beef_bourguignon.jpg",
 				"description": "Tender chunks of beef braised in red wine with onions, carrots, and herbs, resulting in a melt-in-your-mouth French beef stew."
 			},
 			{
-				"id": 4,
+				"id": "6_4",
 				"name": "Crepes Suzette",
 				"price": "200kr",
 				"image": "img/food/crepes_suzette.jpg",
 				"description": "Thin pancakes served with a zesty orange and Grand Marnier sauce, flambéed for a delightful finishing touch."
 			},
 			{
-				"id": 5,
+				"id": "6_5",
 				"name": "Duck Confit",
 				"price": "250kr",
 				"image": "img/food/duck_conf.jpg",
@@ -388,42 +388,42 @@
     "description": "Salmon Sea is renowned for its exquisite selection of salmon dishes, prepared using diverse techniques like grilling, smoking, and baking. Each dish showcases the delicate flavors and textures of top-quality salmon sourced fresh from the catch. Whether you prefer simple grilled salmon or complex smoked variations, Salmon Sea guarantees a delightful experience for seafood enthusiasts. Order now and savor the finest salmon dishes in town.",
     "products": [
         {
-            "id": 0,
+            "id": "7_0",
             "name": "Grilled Salmon Fillet",
             "price": "260kr",
             "image": "img/food/grilled_salmon.jpg",
             "description": "Fresh salmon fillet seasoned with herbs, grilled to perfection, and served with a side of roasted vegetables."
         },
         {
-            "id": 1,
+            "id": "7_1",
             "name": "Smoked Salmon Platter",
             "price": "280kr",
             "image": "img/food/smoked_salmon.jpg",
             "description": "Assorted smoked salmon slices served with capers, red onions, cream cheese, and a selection of crackers."
         },
         {
-            "id": 2,
+            "id": "7_2",
             "name": "Salmon Teriyaki",
             "price": "270kr",
             "image": "img/food/salmon_teriyaki.jpg",
             "description": "Salmon marinated in a savory-sweet teriyaki sauce, grilled to perfection, and served with steamed jasmine rice."
         },
         {
-            "id": 3,
+            "id": "7_3",
             "name": "Baked Stuffed Salmon",
             "price": "290kr",
             "image": "img/food/stuffed_salmon.jpg",
             "description": "Salmon fillet stuffed with crabmeat, baked to a golden finish, and served with a side of roasted potatoes."
         },
         {
-            "id": 4,
+            "id": "7_4",
             "name": "Salmon Caesar Salad",
             "price": "210kr",
             "image": "img/food/salmon_caesar.jpg",
             "description": "Freshly grilled salmon served on a bed of romaine lettuce, croutons, Parmesan cheese, and Caesar dressing."
         },
         {
-            "id": 5,
+            "id": "7_5",
             "name": "Salmon Sushi Rolls",
             "price": "220kr",
             "image": "img/food/salmon_sushi.jpg",

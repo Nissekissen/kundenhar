@@ -30,4 +30,3 @@ if (url.pathname == "/search.html" && url.searchParams.get("a") != null) {
     document.getElementById("locationIcon").attributes["src"].value = "img/icons/location_filled.png";
     document.getElementById("locationText").innerText = url.searchParams.get("a");
 }
-

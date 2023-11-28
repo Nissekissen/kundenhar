@@ -4,7 +4,8 @@ class State {
         this.counter = 0;
         this.addId = "";
         this.removeId = "";
-        this.displayId = ""
+        this.displayId = "";
+        this.product = null;
     }
 
     setCounter(counter) {
@@ -23,6 +24,10 @@ class State {
         this.displayId = id;
         return this;
     }
+    setProduct(product) {
+        this.product = product;
+        return this;
+    }
     updateDisplay() {
         if (this.counter == 0) {
             document.getElementById(this.removeId).style.display = "none";
@@ -32,6 +37,8 @@ class State {
             document.getElementById(this.displayId).style.display = "block";
             document.getElementById(this.displayId).innerText = this.counter;
         }
+
+        // updateUI();
     }
     start() {
         this.updateDisplay();
@@ -43,6 +50,13 @@ class State {
             this.counter --;
             this.updateDisplay();
         });
+
+        const amount = getAmountInBasket(this.product.id);
+        if (amount > 0) {
+            this.counter = amount;
+            this.updateDisplay();
+        }
+
         return this;
     }
 }
@@ -101,8 +115,11 @@ request.onload = function () {
             .setAddId("add" + product.id)
             .setRemoveId("remove" + product.id)
             .setDisplayId("display" + product.id)
+            .setProduct(product)
             .start()
         );
+
+        updateUI();
 
     }
 };
