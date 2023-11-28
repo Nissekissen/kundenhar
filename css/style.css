@@ -470,6 +470,7 @@ section {
 .abouttext {
 	padding: 30px;
 	/* width: 500px; */
+	/* font-family: 'Press Start 2P'; */
 	/* text-align: center; */
 	font-size: 1.4rem;
 	/* outline: 1px solid red; */
@@ -493,19 +494,6 @@ section {
 	border-radius: 10px;
 }
 
-@media screen and (max-width: 1000px) {
-	.about-wrapper {
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 0;
-	}
-
-	.abouttext {
-		width: 100%;
-		padding: 30px;
-	}
-}
 
 #delivery {
 	width: 100%;
@@ -573,6 +561,11 @@ section {
 	font-size: 1.2rem;
 }
 
+#quality .article-text p {
+	font-size: 1.4rem;
+
+}
+
 .readmore-btn {
 	padding: 10px 20px;
 	background: var(--primary-color);
@@ -591,6 +584,25 @@ section {
 		left: calc((100% - 700px) / 2);
 	}
 }
+
+@media screen and (max-width: 1000px) {
+	.about-wrapper, #quality {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 0;
+	}
+
+	#quality {
+		flex-direction: column-reverse;
+	}
+
+	.abouttext, #quality .article-text {
+		width: 100%;
+		padding: 30px;
+	}
+}
+
 
 @media screen and (max-width: 750px) {
 	#delivery .article-text {

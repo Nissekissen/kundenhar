@@ -51,12 +51,6 @@ class State {
             this.updateDisplay();
         });
 
-        const amount = getAmountInBasket(this.product.id);
-        if (amount > 0) {
-            this.counter = amount;
-            this.updateDisplay();
-        }
-
         return this;
     }
 }
@@ -124,5 +118,5 @@ request.onload = function () {
     }
 };
 
-request.open("get", "../data/restaurants.json", true);
+request.open("get", "data/restaurants.json", true);
 request.send();
