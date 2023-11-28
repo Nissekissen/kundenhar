@@ -124,5 +124,5 @@ request.onload = function () {
     }
 };
 
-request.open("get", "/data/restaurants.json", true);
+request.open("get", "../data/restaurants.json", true);
 request.send();
