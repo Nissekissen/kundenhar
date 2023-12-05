@@ -113,9 +113,11 @@ request.onload = function () {
             .start()
         );
 
-        updateUI();
-
     }
+
+    const menu = document.querySelector("#menu");
+
+    menu.removeChild(menu.lastChild);
 };
 
 request.open("get", "data/restaurants.json", true);
