@@ -74,6 +74,8 @@ request.onload = function () {
     document.querySelector("#cuisine").innerHTML = restaurant.cuisine;
     document.querySelector("#time").innerHTML = restaurant.delivery_time;
     document.querySelector("#description").innerHTML = restaurant.description;
+    document.querySelector("#restaurantLink").setAttribute("href", `restaurant.html?id=${restaurant.id}`);
+    document.querySelector("#restaurantLink").innerHTML = restaurant.name;
 
     if (restaurant.products == null) {
         document.querySelector("#menu").innerHTML = `<p class="no-menu">This restaurant does not have a menu yet.</p>`

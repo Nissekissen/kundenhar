@@ -168,17 +168,18 @@ nav {
 	padding: 5px 10px;
 	margin: 8px 5px;
 	transition: all 0.1s ease-in;
+	text-decoration: none;
 }
 
 .signup.navbtn {
 	background-color: var(--primary-color);
 }
 
-.signup.navbtn a {
+.signup.navbtn div {
 	color: white;
 }
 
-.navbtn a {
+.navbtn div {
 	text-decoration: none;
 	color: var(--primary-color);
 	font-size: var(--header-font-size);
@@ -198,6 +199,11 @@ nav {
 
 .login:hover {
 	background-color: var(--primary-color-alpha);
+	border-color: var(--primary-color-dark);
+}
+
+.login:hover div {
+	color: var(--primary-color-dark);
 }
 
 .basketlogo {
@@ -205,22 +211,24 @@ nav {
 	padding: 0;
 	margin: 12px 20px;
 	border-radius: 100%;
-	background-color: var(--primary-color-alpha-2);
 	cursor: pointer;
 }
 
 @keyframes basket-icon-animation {
 	0% {
+		background-color: var(--primary-color-alpha-2);
 		padding: 0;
 		margin: 12px 20px;
 	}
-
+	
 	85% {
+		background-color: var(--primary-color-alpha-2);
 		padding: 12px 20px;
 		margin: 0 0px;
 	}
-
+	
 	100% {
+		background-color: var(--primary-color-alpha-2);
 		padding: 12px 16px;
 		margin: 0 4px;
 	}
@@ -228,6 +236,7 @@ nav {
 }
 
 .basketlogo:hover {
+	background-color: var(--primary-color-alpha-2);
 	animation: basket-icon-animation 0.2s ease-in;
 	padding: 12px 16px;
 	margin: 0 4px;
@@ -331,6 +340,31 @@ nav {
 
 .basketOpen {
 	display: block;
+}
+
+.nav-viewer {
+	width: 100%;
+	padding: 0 20px;
+}
+
+.nav-links {
+	display: flex;
+	gap: 10px;
+	font-size: 0.8rem;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: var(--primary-color);
+}
+
+.nav-divider {
+	color: var(--primary-color-dark);
+}
+
+.nav-link:hover {
+	color: var(--primary-color-dark);
+	text-decoration: underline;
 }
 
 
@@ -792,8 +826,16 @@ footer {
 	position: absolute;
 	width: calc(100vw - 100px);
 	height: 200px;
-	right: 50px;
+	/* right: 50px; */
+	left: 0;
+	margin: 0 50px;
 	background-image: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(0,0,0,0) 15%, rgba(0,0,0,0) 85%, rgba(255,255,255,1) 100%);
+}
+
+.specialImage {
+	object-fit: cover;
+	aspect-ratio: 1.1618;
+	object-position: center -300px;
 }
 
 .offer {
